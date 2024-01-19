@@ -38,10 +38,13 @@ DoongG는 자취생들을 위한 종합 플랫폼입니다. 자취 경험이 있
 ![docker](https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=black)
 ![aws-s3](https://img.shields.io/badge/aws%20s3-569A31?style=for-the-badge&logo=amazons3&logoColor=black)
 ![amazonec2](https://img.shields.io/badge/amazone%20Ec2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=black)
-![amazonroute53](https://img.shields.io/badge/amazon%20route53-#8C4FFF?style=for-the-badge&logo=amazonroute53&logoColor=black)
+![amazonroute53](https://img.shields.io/badge/amazon%20route53-8C4FFF?style=for-the-badge&logo=amazonroute53&logoColor=black)
+
+<br/>
+
 ### **시작하기**
 
-**패키지 설치 및 빌드 방법**
+**⚒️ 패키지 설치 및 빌드 방법**
 
 
 ```
@@ -50,7 +53,7 @@ $ npm run build  // 빌드 방법
 ```
 
 
-**팀 멤버**
+**👪 팀 멤버**
 
 | 담당업무 | 이름 |
 | --- | --- 
@@ -60,7 +63,7 @@ $ npm run build  // 빌드 방법
 
 
 
-**File Tree**
+**📜 File Tree**
 
 
 ```
