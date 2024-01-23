@@ -61,6 +61,7 @@
 - `Java가 설치되어 있어야 합니다 (버전 17.0.9).`
 - `Gradle 빌드 도구가 설치되어 있어야 합니다.`
 
+</br>
 
 #### DoongG-Server (백엔드) 설정
 
@@ -89,6 +90,7 @@ java -jar build/libs/doongG-0.0.1-SNAPSHOT.jar
 ```
 ##### 서버는 기본적으로 http://localhost:8080에서 실행됩니다.
 
+</br>
 
 #### DoongG-Client (프론트엔드) 설정
 
@@ -115,132 +117,6 @@ npm start
 ```
 ##### 서버는 기본적으로 http://localhost:3000에서 실행됩니다.
 
-<br/>
-
-**📜 File Tree**
-
-
-```
-📦public
- ┣ 📜DoongGIcon.ico
- ┣ 📜favicon.ico
- ┣ 📜index.html
- ┣ 📜logo192.png
- ┣ 📜logo512.png
- ┣ 📜manifest.json
- ┗ 📜robots.txt
-📦src
- ┣ 📂assets
- ┃ ┣ 📜custom.d.ts
- ┃ ┣ 📜eyes.png
- ┃ ┣ 📜fox.jpg
- ┃ ┣ 📜gallery-icon.png
- ┃ ┣ 📜Google.png
- ┃ ┣ 📜jpg.d.ts
- ┃ ┣ 📜Kakao.png
- ┃ ┣ 📜list-icon.png
- ┃ ┣ 📜listbar.png
- ┃ ┣ 📜listBar2.png
- ┃ ┣ 📜logo-removebg-preview.png
- ┃ ┣ 📜mapMascot.png
- ┃ ┣ 📜mapMascot2.png
- ┃ ┣ 📜mapMascot3.png
- ┃ ┣ 📜mapMascot4.png
- ┃ ┣ 📜Mascot-Cook.png
- ┃ ┣ 📜Mascot-EatWhat.png
- ┃ ┣ 📜Mascot-fliped.png
- ┃ ┣ 📜Mascot-removebg-preview.png
- ┃ ┣ 📜Mascot.jpg
- ┃ ┣ 📜Mascot.png
- ┃ ┣ 📜png.d.ts
- ┃ ┣ 📜ramen1.jpg
- ┃ ┣ 📜refrigerator.png
- ┃ ┣ 📜shopping1.jpg
- ┃ ┣ 📜shopping2.jpg
- ┃ ┣ 📜shopping3.jpg
- ┃ ┣ 📜shopping4.jpg
- ┃ ┣ 📜shopping5.jpg
- ┃ ┣ 📜siren.png
- ┃ ┣ 📜siren2.png
- ┃ ┗ 📜Talk.png
- ┣ 📂components
- ┃ ┣ 📂data
- ┃ ┃ ┗ 📜User.tsx
- ┃ ┣ 📜BoardUpperPart.tsx
- ┃ ┣ 📜Carousel.tsx
- ┃ ┣ 📜FindIDModal.tsx
- ┃ ┣ 📜FindPWModal.tsx
- ┃ ┣ 📜GalleryStyle.tsx
- ┃ ┣ 📜Header.tsx
- ┃ ┣ 📜IntroduceBoard.tsx
- ┃ ┣ 📜IntroduceCarousel.tsx
- ┃ ┣ 📜IntroduceHotdeal.tsx
- ┃ ┣ 📜IntroduceHotdeal1.tsx
- ┃ ┣ 📜IntroduceRoomReviews.tsx
- ┃ ┣ 📜ListStyle.tsx
- ┃ ┣ 📜LoginModal.tsx
- ┃ ┣ 📜MyBag.tsx
- ┃ ┣ 📜MyPageModal.tsx
- ┃ ┣ 📜MyRoomReview.tsx
- ┃ ┣ 📜PasswordChangeModal.tsx
- ┃ ┣ 📜PostingModal.tsx
- ┃ ┣ 📜PostModal.tsx
- ┃ ┣ 📜RecipeGenerator.tsx
- ┃ ┣ 📜RoomReviewWatch.tsx
- ┃ ┣ 📜RoomReviewWatchMap.tsx
- ┃ ┣ 📜RoomReviewWrite.tsx
- ┃ ┣ 📜RoomReviewWriteMap.tsx
- ┃ ┣ 📜Search.tsx
- ┃ ┣ 📜ShoppingDetailBuy.tsx
- ┃ ┣ 📜ShoppingDetailModal.tsx
- ┃ ┣ 📜ShoppingDetailSelectBar.tsx
- ┃ ┣ 📜ShoppingHeaderSelectBar.tsx
- ┃ ┣ 📜ShoppingListTest.tsx
- ┃ ┣ 📜ShoppingSlideHot.tsx
- ┃ ┣ 📜ShoppingSlideResent.tsx
- ┃ ┣ 📜SignUpModal.tsx
- ┃ ┣ 📜TodayFoodModal.tsx
- ┃ ┣ 📜UpdateModal.tsx
- ┃ ┣ 📜WhatIBuy.tsx
- ┃ ┗ 📜WhatIWrite.tsx
- ┣ 📂constants
- ┃ ┗ 📜constants.txt
- ┣ 📂hooks
- ┃ ┗ 📜hooks.txt
- ┣ 📂pages
- ┃ ┣ 📜404.tsx
- ┃ ┣ 📜Board.tsx
- ┃ ┣ 📜BoardUnited.tsx
- ┃ ┣ 📜Main.tsx
- ┃ ┣ 📜PostDetail.tsx
- ┃ ┣ 📜RoomReview.tsx
- ┃ ┗ 📜Shopping.tsx
- ┣ 📂routers
- ┃ ┗ 📜Router.tsx
- ┣ 📂services
- ┃ ┗ 📜services.txt
- ┣ 📂store
- ┃ ┣ 📜shoppingHeaderSelectBarStore.tsx
- ┃ ┗ 📜storeT.tsx
- ┣ 📜App.css
- ┣ 📜App.tsx
- ┣ 📜index.css
- ┗ 📜index.tsx
- ┣📜.env
- ┣📜.gitignore
- ┣📜prettierrc
- ┣📜db.json
- ┣📜docker-compose.yml
- ┣📜Dockerfile
- ┣📜package-lock.json
- ┣📜package.json
- ┣📜README.md
- ┣📜README.old.md
- ┣📜tsconfig.json
-
-```
-
-<br/>
 <br/>
 
 
