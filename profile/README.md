@@ -44,13 +44,39 @@
 
 ### **👪 팀 멤버**
 
- | 이름 | 담당업무 | 세부역할 |
- | :--- | :---: | :--- |
- | [심재운](https://github.com/jaejae990921) | Back-End | <b>팀장</b> <br/>API 개발, DB 설계&구축, Back-End개발(로그인&회원가입, 마이페이지, 핫딜, 미니게임, 자취방 리뷰), 보안 설정 |
- | [류승기](https://github.com/eukkki210) | Back-End | <b>팀원</b> <br/>API 개발, DB 설계&구축, Back-End개발(마이페이지, 게시판), 서버 간 통신&통합, 배포 서버 런칭&운영 |
- | [김현승](https://github.com/keeemhs) | Front-End | <b>팀원</b> <br/>UI/UX설계, Front-End개발(로그인&회원가입, 마이페이지)|
- | [이태희](https://github.com/thbrthbr) | Front-End | <b>팀원</b> <br/>UI/UX설계, Front-End개발(게시판, 미니게임)|
- | [조진형](https://github.com/7jjin) | Front-End | <b>팀원</b> <br/>UI/UX설계, Front-End개발(핫딜, 자취방 리뷰)|
+<table>
+  <thead>
+    <tr>
+      <th>담당업무</th>
+      <th>이름</th>
+      <th>세부역할</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">Back-End</td>
+      <td><a href="https://github.com/jaejae990921">심재운</a></td>
+      <td><br/><b>팀장</b> <br/>API 개발, DB 설계&구축, <br/>Back-End개발(로그인&회원가입, 마이페이지, 핫딜, 미니게임, 자취방 리뷰), 보안 설정</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eukkki210">류승기</a></td>
+      <td><b>팀원</b> <br/>API 개발, DB 설계&구축, <br/>Back-End개발(마이페이지, 게시판), 서버 간 통신&통합, 배포 서버 런칭&운영</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Front-End</td>
+      <td><a href="https://github.com/keeemhs">김현승</a></td>
+      <td><b>팀원</b> <br/>UI/UX설계, Front-End개발(로그인&회원가입, 마이페이지)</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/thbrthbr">이태희</a></td>
+      <td><b>팀원</b> <br/>UI/UX설계, Front-End개발(게시판, 미니게임)</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/7jjin">조진형</a></td>
+      <td><b>팀원</b> <br/>UI/UX설계, Front-End개발(핫딜, 자취방 리뷰)</td>
+    </tr>
+  </tbody>
+</table>
  
 <br/>
 
