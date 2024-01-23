@@ -40,7 +40,6 @@
 ![amazonec2](https://img.shields.io/badge/amazone%20Ec2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=black)
 ![amazonroute53](https://img.shields.io/badge/amazon%20route53-8C4FFF?style=for-the-badge&logo=amazonroute53&logoColor=black)
 
-<br/>
 
 
 **👪 팀 멤버**
@@ -50,7 +49,7 @@
 | Front-end | [김현승](https://github.com/keeemhs), [이태희](https://github.com/thbrthbr)   , [조진형](https://github.com/7jjin) |
 | Back-end | [심재운(팀장)](https://github.com/jaejae990921)   , [류승기](https://github.com/eukkki210) |
 
-
+<br/>
 
 ## **시작하기**
 
@@ -117,7 +116,7 @@ npm start
 ```
 ##### 서버는 기본적으로 http://localhost:3000에서 실행됩니다.
 
-
+<br/>
 
 **📜 File Tree**
 
