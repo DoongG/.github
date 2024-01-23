@@ -39,15 +39,19 @@
 ![aws-s3](https://img.shields.io/badge/aws%20s3-569A31?style=for-the-badge&logo=amazons3&logoColor=black)
 ![amazonec2](https://img.shields.io/badge/amazone%20Ec2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=black)
 ![amazonroute53](https://img.shields.io/badge/amazon%20route53-8C4FFF?style=for-the-badge&logo=amazonroute53&logoColor=black)
-
+ 
+<br/>
 
 ### **👪 팀 멤버**
 
-| 담당업무 | 이름 |
-| --- | --- 
-| Front-end | [김현승](https://github.com/keeemhs), [이태희](https://github.com/thbrthbr)   , [조진형](https://github.com/7jjin) |
-| Back-end | [심재운(팀장)](https://github.com/jaejae990921)   , [류승기](https://github.com/eukkki210) |
-
+ | 이름 | 담당업무 | 세부역할 |
+ | :--- | :---: | :--- |
+ | [심재운](https://github.com/jaejae990921) | Back-End | <b>팀장</b> <br/>API 개발, DB 설계&구축, Back-End개발(로그인&회원가입, 마이페이지, 핫딜, 미니게임, 자취방 리뷰), 보안 설정 |
+ | [류승기](https://github.com/eukkki210) | Back-End | <b>팀원</b> <br/>API 개발, DB 설계&구축, Back-End개발(마이페이지, 게시판), 서버 간 통신&통합, 배포 서버 런칭&운영 |
+ | [김현승](https://github.com/keeemhs) | Front-End | <b>팀원</b> <br/>UI/UX설계, Front-End개발(로그인&회원가입, 마이페이지)|
+ | [이태희](https://github.com/thbrthbr) | Front-End | <b>팀원</b> <br/>UI/UX설계, Front-End개발(게시판, 미니게임)|
+ | [조진형](https://github.com/7jjin) | Front-End | <b>팀원</b> <br/>UI/UX설계, Front-End개발(핫딜, 자취방 리뷰)|
+ 
 <br/>
 
 ## **시작하기**
