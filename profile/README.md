@@ -9,15 +9,15 @@
 
 ### **프로젝트 기획 의도**
 
-DoongG는 자취생들을 위한 종합 플랫폼입니다. 자취 경험이 있는 팀원 모두가 자취를 하며  **<u>"직접 겪은 불편함"</u>** 을 개선하고자 만든 프로젝트입니다.
+> DoongG는 자취생들을 위한 종합 플랫폼입니다. 자취 경험이 있는 팀원 모두가 자취를 하며  **<u>"직접 겪은 불편함"</u>** 을 개선하고자 만든 프로젝트입니다.
 
 ### **프로젝트 기간**
 
-23.11.08 ~ 23.12.08 (4주)
+> 23.11.08 ~ 23.12.08 (4주)
 
 ### **배포 링크**
 
-🔖url : [https://doongg.site](https://doongg.site/)   
+> 🔖url : [https://doongg.site](https://doongg.site/)   
 
 
 ### **기술 스택**
@@ -42,16 +42,6 @@ DoongG는 자취생들을 위한 종합 플랫폼입니다. 자취 경험이 있
 
 <br/>
 
-### **시작하기**
-
-**⚒️ 패키지 설치 및 빌드 방법**
-
-
-```
-$ npm install    // 패키지 설치하기
-$ npm run build  // 빌드 방법
-```
-
 
 **👪 팀 멤버**
 
@@ -60,6 +50,72 @@ $ npm run build  // 빌드 방법
 | Front-end | [김현승](https://github.com/keeemhs), [이태희](https://github.com/thbrthbr)   , [조진형](https://github.com/7jjin) |
 | Back-end | [심재운(팀장)](https://github.com/jaejae990921)   , [류승기](https://github.com/eukkki210) |
 
+
+
+## **시작하기**
+
+### **⚒️ 패키지 설치 및 빌드 방법**
+
+#### **전제 조건**
+
+- `Node.js가 설치되어 있어야 합니다 (버전 16.20.2).`
+- `npm 패키지 관리자가 설치되어 있어야 합니다.`
+- `Java가 설치되어 있어야 합니다 (버전 17.0.9).`
+- `Gradle 빌드 도구가 설치되어 있어야 합니다.`
+
+
+#### DoongG-Server (백엔드) 설정
+
+ 1. DoongG-Server 레포지토리를 복제합니다:
+    
+```
+git clone https://github.com/DoongG/DoongG-Server.git
+```
+
+ 2. 프로젝트 디렉토리로 이동합니다.
+    
+```
+cd DoongG-Server
+```
+ 3. Gradle을 사용하여 프로젝트를 빌드합니다:
+
+```
+gradle clean build
+```
+ 4. 빌드가 완료되면 실행 가능한 JAR 파일이 build 디렉토리에 생성됩니다.
+    
+ 5. 다음 명령을 사용하여 서버를 실행합니다:
+
+```
+java -jar build/libs/doongG-0.0.1-SNAPSHOT.jar
+```
+##### 서버는 기본적으로 http://localhost:8080에서 실행됩니다.
+
+
+#### DoongG-Client (프론트엔드) 설정
+
+ 1. DoongG-Client 레포지토리를 복제합니다:
+    
+```
+git clone https://github.com/DoongG/DoongG-Client.git
+```
+
+ 2. 프로젝트 디렉토리로 이동합니다.
+    
+```
+cd DoongG-Client
+```
+ 3. 의존성을 설치합니다:
+
+```
+npm install
+```
+ 4. 다음 명령으로 프로젝트를 시작합니다:
+
+```
+npm start
+```
+##### 서버는 기본적으로 http://localhost:3000에서 실행됩니다.
 
 
 
