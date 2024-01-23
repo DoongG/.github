@@ -41,8 +41,7 @@
 ![amazonroute53](https://img.shields.io/badge/amazon%20route53-8C4FFF?style=for-the-badge&logo=amazonroute53&logoColor=black)
 
 
-
-**👪 팀 멤버**
+### **👪 팀 멤버**
 
 | 담당업무 | 이름 |
 | --- | --- 
