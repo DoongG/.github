@@ -56,11 +56,11 @@
     <tr>
       <td rowspan="2">Back-End</td>
       <td><a href="https://github.com/jaejae990921">심재운</a></td>
-      <td><br/><b>팀장</b> <br/>API 개발, DB 설계&구축, <br/>Back-End개발(로그인&회원가입, 마이페이지, 핫딜, 미니게임, 자취방 리뷰), 보안 설정</td>
+      <td><b>팀장</b> <br/>API 개발, DB 개발, <br/>Back-End개발(로그인&회원가입, 마이페이지, 핫딜, 미니게임, 자취방 리뷰), 보안 설정</td>
     </tr>
     <tr>
       <td><a href="https://github.com/eukkki210">류승기</a></td>
-      <td><b>팀원</b> <br/>API 개발, DB 설계&구축, <br/>Back-End개발(마이페이지, 게시판), 서버 간 통신&통합, 배포 서버 런칭&운영</td>
+      <td><b>팀원</b> <br/>API 개발, DB 개발, <br/>Back-End개발(마이페이지, 게시판), 서버 간 통신&통합, 배포 서버 런칭&운영</td>
     </tr>
     <tr>
       <td rowspan="3">Front-End</td>
@@ -80,7 +80,7 @@
  
 <br/>
 
-## **시작하기**
+## **🌟 시작하기**
 
 ### **⚒️ 패키지 설치 및 빌드 방법**
 
@@ -192,14 +192,21 @@ npm start
 - 자취방에 대한 리뷰를 공유할 수 있는 페이지 입니다.
 - 리뷰 작성과 선택한 리뷰의 정보를 볼 수 있습니다.
 
+</br>
 
 
+## 📘 API 명세서
 
+이 프로젝트의 API 명세서는 Swagger를 통해 제공됩니다. 
+Swagger UI에서 자세한 API 정보를 확인하려면 백엔드 서버를 실행한 후 아래 링크를 클릭하세요.
 
+[Swagger API 명세서 바로가기](http://localhost:8080/swagger-ui/index.html)
 
+</br>
 
+## ©️ 저작권
 
-
+> 이 프로젝트는 MIT 라이선스에 따라 라이선스가 부여됩니다. - 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하십시오.
 
 
 
