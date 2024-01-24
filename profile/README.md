@@ -25,7 +25,7 @@
 
 ### **프로젝트 기획 의도**
 
-> DoongG는 자취생들을 위한 종합 플랫폼입니다. 자취 경험이 있는 팀원 모두가 자취를 하며  **<u>"직접 겪은 불편함"</u>** 을 개선하고자 만든 프로젝트입니다.
+> DoongG는 1인 가구를를 위한 통합 플랫폼입니다. 자취 경험이 있는 팀원 모두가 자취를 하며  **<u>"직접 겪은 불편함"</u>** 을 개선하고자 만든 프로젝트입니다.
 
 ### **프로젝트 기간**
 
@@ -41,20 +41,33 @@
 **Front-End**
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=black)
-![react](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![React](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![styled-components](https://img.shields.io/badge/Styled%20component-DB7093?style=for-the-badge&logo=styled-components&logoColor=black)
+![Swiper](https://img.shields.io/badge/Swiper-6332F6?style=for-the-badge&logo=swiper&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Zustand](https://img.shields.io/badge/Zustand-FFA500?style=for-the-badge&logo=zustand&logoColor=black)
+![Quill](https://img.shields.io/badge/Quill-CC6699?style=for-the-badge&logo=quill&logoColor=white)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=black)
+![KakaoMap API](https://img.shields.io/badge/KakaoMap%20API-yellow?style=for-the-badge&logo=kakao&logoColor=black)
 
 
 **Back-End**
 
-![spring](https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=black)
-![mysql](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=black)
-![docker](https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=black)
-![aws-s3](https://img.shields.io/badge/aws%20s3-569A31?style=for-the-badge&logo=amazons3&logoColor=black)
-![amazonec2](https://img.shields.io/badge/amazone%20Ec2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=black)
-![amazonroute53](https://img.shields.io/badge/amazon%20route53-8C4FFF?style=for-the-badge&logo=amazonroute53&logoColor=black)
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=black)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-8BC34A?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-4CAF50?style=for-the-badge&logo=spring-security&logoColor=white)
+![Spring JPA](https://img.shields.io/badge/Spring%20JPA-388E3C?style=for-the-badge&logo=spring-data&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20Web%20Tokens&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=black)
+![Docker](https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=black)
+![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![NGINX](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![AWS-EC2](https://img.shields.io/badge/amazone%20Ec2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=black)
+![AWS-S3](https://img.shields.io/badge/aws%20s3-569A31?style=for-the-badge&logo=amazons3&logoColor=black)
+![AWS-Route53](https://img.shields.io/badge/amazon%20route53-8C4FFF?style=for-the-badge&logo=amazonroute53&logoColor=black)
+![Certbot](https://img.shields.io/badge/Certbot-03A9F4?style=for-the-badge&logo=letsencrypt&logoColor=white)
  
 <br/>
 
@@ -175,8 +188,10 @@ npm start
 "width="100%">
 </p>
 
-- 복잡한 로그인 UI를 최소화하기 위해 로그인 로직 최소화 했습니다.
+- 복잡한 로그인 UI를 최소화하기 위해 로그인 로직을 최소화 했습니다.
 - 마이페이지에서 비밀번호 변경 및 활동 정보를 확인 할 수 있습니다.
+- 최신 버전의 Spring Security와 JWT를 활용하여 비인가 사용자의 비정상적인 접근을 막도록 구현했습니다.
+- CoolSMS를 활용하여 전화번호 인증을 구현하여 회원 가입 시 본인 인증이 가능하도록 했습니다.
 
 
 ### **2️⃣ 핫딜 페이지**
@@ -196,8 +211,11 @@ npm start
   <img src="https://github.com/DoongG/.github/assets/101184549/d2872c17-b0e1-48ba-ba32-9b1df01f5ee1">
 </p>
 
-- 자취할 때 필요한 정보나 고민거리를 해결해주는 게시판 페이지 입니다.
-- 우측에 게임 요소를 넣어서 사용자에게 재밌는 요소를 넣었습니다.
+- 자취할 때 필요한 정보나 고민거리를 해결해주는 게시판 페이지입니다.
+- React Quil을 활용하여 게시물 작성 기능을 구현했습니다.
+- 기본적인 게시판 CRUD 기능 외에도 사용자 편의를 위해 검색 기능(통합,작성자,제목,해시태그 검색), 리액션 기능, 댓글&대댓글 기능을 구현했습니다.
+- 우측에 미니 게임 요소를 넣어서 사용자에게 재밌는 요소를 넣었습니다.
+- 미니 게임은 랜덤 메뉴 추천과 냉장고 요리사 기능을 제공하며, 냉장고 요리사는 식품의약품안전처 API를 이용해 갖고 있는 재료를 기반으로 요리할 수 있는 레시피를 추천하고 레시피 상세 정보를 노출하도록 구현했습니다.
 
 ### **4️⃣ 자취방 리뷰 페이지**
 
@@ -205,8 +223,9 @@ npm start
   <img src="https://github.com/DoongG/.github/assets/101184549/394c076d-f8a2-463e-ae8e-18784c44935d">
 </p>
 
-- 자취방에 대한 리뷰를 공유할 수 있는 페이지 입니다.
+- 자취방에 대한 리뷰를 공유할 수 있는 페이지입니다.
 - 리뷰 작성과 선택한 리뷰의 정보를 볼 수 있습니다.
+- 카카오맵 API를 활용하여 지도에 자취방의 위치에 마커를 찍어 리뷰를 남길 수 있도록 구현했습니다.
 
 </br>
 
