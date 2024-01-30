@@ -234,11 +234,12 @@ npm start
 
 > 이 프로젝트의 API 명세서는 Swagger를 통해 제공됩니다.
 > </br>
-> Swagger UI에서 자세한 API 정보를 확인하려면 백엔드 서버를 실행한 후 아래 링크를 클릭하세요.
 
-[Swagger API 명세서 바로가기](http://localhost:8080/swagger-ui/index.html)
-
+[Swagger API 명세서 바로가기](https://app.swaggerhub.com/apis-docs/YSG980423/DoongG-api_docs/1.0.0)
 </br>
+[API 명세서 (HTML2 파일 다운로드)](../index.html)
+</br>
+
 
 ## ©️ 저작권
 
